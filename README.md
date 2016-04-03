@@ -6,10 +6,7 @@
 
 A prompt inspired by the @mathiasbynens's [prompt]
 
-```fish
-<user> at <hostname> in <pwd> on <branch>
-$ 
-```
+<img src="https://github.com/sotayamashita/simple/blob/master/media/media.png" width="400" />
 
 ## Install
 
