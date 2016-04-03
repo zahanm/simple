@@ -10,12 +10,6 @@ A prompt inspired by the @mathiasbynens's [prompt]
 
 ## Install
 
-**With [Fisherman]** (Not implemented yet)
-
-```fish
-fisher i simple
-```
-
 **With Manually**
 
 ```fish
