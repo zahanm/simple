@@ -53,6 +53,20 @@ function fish_prompt -d "Simple Fish Prompt"
     __print_color ffffff "$git_glyph"
     __print_color 6597ca "$branch_name"
 
+    if git_is_touched
+        if git_is_staged
+            if git_is_dirty
+                set git_branch_glyph " [±]"
+            else
+                set git_branch_glyph " [+]"
+            end
+        else
+            set git_branch_glyph " [?]"
+        end
+    end
+
+    __print_color 6597ca "$git_branch_glyph"
+
     if __git_upstream_configured
          set -l git_ahead (command git rev-list --left-right --count HEAD...@"{u}" ^ /dev/null | awk '
             $1 > 0 { printf("⇡") } # can push
