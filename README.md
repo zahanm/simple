@@ -10,17 +10,10 @@ A prompt inspired by the @mathiasbynens's [prompt]
 
 ## Install
 
-**With Manually**
+With [Fisherman]
 
 ```fish
-# Make it be backup
-mv ~/.config/fisherman/functions/fish_prompt.fish ~/.config/fisherman/functions/fish_prompt.fish.old
-mv ~/.config/fisherman/functions/fish_right_prompt.fish ~/.config/fisherman/functions/fish_right_prompt.fish.old
-
-# Install git
-git clone git@github.com:sotayamashita/simple.git
-mv /path/to/simple/functions/fish_prompt.fish ~/.config/fisherman/functions/fish_prompt.fish
-mv /path/to/simple/functions/fish_right_prompt.fish ~/.config/fisherman/functions/fish_right_prompt.fish
+fisher i simple
 ```
 
 ## Terminal Settings
