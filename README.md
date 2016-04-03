@@ -35,4 +35,4 @@ mv /path/to/simple/functions/fish_right_prompt.fish ~/.config/fisherman/function
 [prompt]: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
 
 [FiraCode]: https://github.com/tonsky/FiraCode
-[Tomorrow Night Eighties.itermcolors]: 
+[Tomorrow Night Eighties.itermcolors]: https://github.com/sotayamashita/simple/blob/master/Tomorrow%20Night%20Eighties.itermcolors
