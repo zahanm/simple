@@ -25,10 +25,11 @@ mv /path/to/simple/functions/fish_right_prompt.fish ~/.config/fisherman/function
 
 ## Terminal Settings
 
-+ 13pt Monaco with 1.1 vertical spacing.
++ 14pt [FiraCode] with 1.1 vertical spacing.
 
 [slack-link]: https://fisherman-wharf.herokuapp.com/
 [slack-badge]: https://img.shields.io/badge/slack-join%20the%20chat-00B9FF.svg?style=flat-square
 
 [Fisherman]: https://github.com/fisherman/fisherman
 [prompt]: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
+[FiraCode]: https://github.com/tonsky/FiraCode
