@@ -6,7 +6,7 @@
 
 A prompt inspired by the @mathiasbynens's [prompt]
 
-<img src="https://github.com/sotayamashita/simple/blob/master/media/media.png" width="400" />
+<img src="https://github.com/sotayamashita/simple/blob/master/media/media.png" width="370" />
 
 ## Install
 
