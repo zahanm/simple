@@ -2,7 +2,7 @@
 
 # Simple
 
-> "Simple can be harder than complex" -  Steve Jobs
+> "Simple can be harder than complex" - Steve Jobs
 
 A prompt inspired by @mathiasbynens's [prompt]
 
@@ -10,10 +10,10 @@ A prompt inspired by @mathiasbynens's [prompt]
 
 ## Install
 
-With [Fisherman]
+With [fisherman]
 
 ```fish
-fisher i simple
+fisher simple
 ```
 
 ## Terminal Settings
@@ -24,7 +24,7 @@ fisher i simple
 [slack-link]: https://fisherman-wharf.herokuapp.com/
 [slack-badge]: https://img.shields.io/badge/slack-join%20the%20chat-00B9FF.svg?style=flat-square
 
-[Fisherman]: https://github.com/fisherman/fisherman
+[fisherman]: https://github.com/fisherman/fisherman
 [prompt]: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
 
 [FiraCode]: https://github.com/tonsky/FiraCode
