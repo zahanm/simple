@@ -12,7 +12,7 @@ function fish_right_prompt
 
          echo -sn (set_color $status_color) "$duration" (set_color normal)
 
-    else if set -l last_job_id (last_job_id)
+    else if set -l last_job_id (last_job_id -l)
          echo -sn (set_color $status_color) "%$last_job_id" (set_color normal)
     else
          echo -sn (set_color 555) (date "+%H:%M") (set_color normal)
