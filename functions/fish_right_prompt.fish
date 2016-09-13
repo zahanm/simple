@@ -17,4 +17,9 @@ function fish_right_prompt
     else
         echo -sn (set_color 555) (date "+%H:%M") (set_color normal)
     end
+
+    if test "$CMD_DURATION" -gt (math "1000 * 30")
+        # notification for commands longer than 30 sec
+        tput bel
+    end
 end
