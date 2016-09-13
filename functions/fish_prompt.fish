@@ -68,26 +68,26 @@ function fish_prompt -d "Simple Fish Prompt"
         __print_color 6597ca "$git_branch_glyph"
 
         if __git_upstream_configured
-             set -l git_ahead (command git rev-list --left-right --count HEAD...@"{u}" ^ /dev/null | awk '
+            set -l git_ahead (command git rev-list --left-right --count HEAD...@"{u}" ^ /dev/null | awk '
                 $1 > 0 { printf("⇡") } # can push
                 $2 > 0 { printf("⇣") } # can pull
-             ')
+            ')
 
-             if test ! -z "$git_ahead"
+            if test ! -z "$git_ahead"
                 __print_color 5DAE8B " $git_ahead"
             end
         end
     else
-      # Mercurial
-      #
-      set -l hg_repo_root_var (hg_repo_root)
-      if test -n "$hg_repo_root_var"
-        set -l hg_glyph " on "
-        set -l branch_name (hg_branch_or_bookmark $hg_repo_root_var)
+        # Mercurial
+        #
+        set -l hg_repo_root_var (hg_repo_root)
+        if test -n "$hg_repo_root_var"
+            set -l hg_glyph " on "
+            set -l branch_name (hg_branch_or_bookmark $hg_repo_root_var)
 
-        __print_color ffffff "$hg_glyph"
-        __print_color 6597ca "$branch_name"
-      end
+            __print_color ffffff "$hg_glyph"
+            __print_color 6597ca "$branch_name"
+        end
     end
 
     __print_color FF7676 "\n❯ "
